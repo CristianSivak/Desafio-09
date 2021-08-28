@@ -75,9 +75,12 @@ router.get("/listar/:id", (req, res) => {
     res.status(200).send()
   });
 
-router.post("/guardar/post", (req, res) => {
-    
-    const producto = req.body;
+router.get('/addproduct', (req, res)=>{
+    res.sendFile(__dirname+'/public/addproduct.html');
+})
+
+router.post("/guardar", (req, res) => {
+    const producto = req.body;  
     console.log(producto)
     memoria.addElement(producto);
     res.sendStatus(201);
