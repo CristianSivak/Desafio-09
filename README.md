@@ -1,7 +1,7 @@
 # Desafio09 - Express Avanzado II
 Coderhouse - Programación Backend
 
->>> Consigna:
+>> Consigna:
 
 Sobre el proyecto entregable de la clase anterior (https://github.com/CristianSivak/Desafio-08), incorporar las siguientes rutas:
 - Actualizar un producto (put) : '/api/productos/actualizar/:id' -> devuelve producto actualizado
